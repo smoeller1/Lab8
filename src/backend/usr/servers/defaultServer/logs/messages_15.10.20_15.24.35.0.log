@@ -1,0 +1,740 @@
+********************************************************************************
+product = WebSphere Application Server 8.5.5.7 (wlp-1.0.10.cl50720150827-0437)
+wlp.install.dir = /Users/smoeller/Documents/School/CS5551/Git/Lab8/
+java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+java.version = 1.8.0_60
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_60-b27)
+os = Mac OS X (10.11; x86_64) (en_US)
+process = 55180@Simons-iMac.home
+********************************************************************************
+[10/17/15 10:23:08:449 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[10/17/15 10:23:08:462 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/8.5.5.7/lafiles/en.html
+[10/17/15 10:23:09:425 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.21 seconds
+[10/17/15 10:23:09:457 CDT] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/17/15 10:23:10:187 CDT] 00000010 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[10/17/15 10:23:10:498 CDT] 00000010 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[10/17/15 10:23:11:009 CDT] 0000001e com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
+[10/17/15 10:23:11:010 CDT] 0000001e com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreator       I CWWKS4105I: LTPA configuration is ready after 0.134 seconds.
+[10/17/15 10:23:11:173 CDT] 00000021 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[10/17/15 10:23:11:188 CDT] 00000021 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9443.
+[10/17/15 10:23:11:297 CDT] 00000010 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel wasJmsEndpoint318 has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 7276.
+[10/17/15 10:23:11:298 CDT] 00000010 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel wasJmsEndpoint318-ssl has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 7286.
+[10/17/15 10:23:12:136 CDT] 00000010 com.ibm.ws.sib.utils.ras.SibMessage                          I  CWSID0108I: JMS server has started.  
+[10/17/15 10:23:12:439 CDT] 00000010 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[10/17/15 10:23:12:533 CDT] 00000010 .ibm.ws.org.apache.geronimo.specs.geronimo-osgi-registry.1.1 I SPI-Provider Manifest header found in bundle: com.ibm.ws.xlxp.1.5.3 Bundle:com.ibm.ws.org.apache.geronimo.specs.geronimo-osgi-registry.1.1(id=167)   
+[10/17/15 10:23:12:624 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-ws-addr.2.6.2 (171) [org.apache.cxf.ws.addressing.policy.AddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.UsingAddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.AddressingPolicyInterceptorProvider, org.apache.cxf.ws.addressing.impl.AddressingWSDLExtensionLoader, org.apache.cxf.ws.addressing.WSAddressingFeature$WSAddressingFeatureApplier, org.apache.cxf.ws.addressing.MAPAggregator$MAPAggregatorLoader]
+[10/17/15 10:23:12:625 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-frontend-jaxws.2.6.2 (174) [org.apache.cxf.jaxws.context.WebServiceContextResourceResolver]
+[10/17/15 10:23:12:626 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-management.2.6.2 (184) [org.apache.cxf.management.InstrumentationManager]
+[10/17/15 10:23:12:627 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-bindings-xml.2.6.2 (187) [org.apache.cxf.binding.xml.XMLBindingFactory, org.apache.cxf.binding.xml.wsdl11.XMLWSDLExtensionLoader]
+[10/17/15 10:23:12:627 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-transports-http.2.6.2 (189) [org.apache.cxf.transport.http.HTTPTransportFactory, org.apache.cxf.transport.http.HTTPWSDLExtensionLoader, org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder, org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder, org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider]
+[10/17/15 10:23:12:628 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-bindings-soap.2.6.2 (190) [org.apache.cxf.binding.soap.SoapBindingFactory, org.apache.cxf.binding.soap.SoapTransportFactory]
+[10/17/15 10:23:12:628 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf-rt-ws-policy.2.6.2 (193) [org.apache.cxf.ws.policy.PolicyEngine, org.apache.cxf.policy.PolicyDataEngine, org.apache.cxf.ws.policy.AssertionBuilderRegistry, org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry, org.apache.cxf.ws.policy.PolicyBuilder, org.apache.cxf.ws.policy.PolicyAnnotationListener, org.apache.cxf.ws.policy.attachment.ServiceModelPolicyProvider, org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilderRegistry, org.apache.cxf.ws.policy.attachment.external.EndpointReferenceDomainExpressionBuilder, org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider, org.apache.cxf.ws.policy.mtom.MTOMAssertionBuilder, org.apache.cxf.ws.policy.mtom.MTOMPolicyInterceptorProvider]
+[10/17/15 10:23:12:633 CDT] 00000010 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.jaxrs-2.0.common (242) [org.apache.cxf.phase.PhaseManager, org.apache.cxf.workqueue.WorkQueueManager, org.apache.cxf.buslifecycle.BusLifeCycleManager, org.apache.cxf.endpoint.ServerRegistry, org.apache.cxf.endpoint.EndpointResolverRegistry, org.apache.cxf.headers.HeaderManager, org.apache.cxf.service.factory.FactoryBeanListenerManager, org.apache.cxf.endpoint.ServerLifeCycleManager, org.apache.cxf.endpoint.ClientLifeCycleManager, org.apache.cxf.resource.ResourceManager, org.apache.cxf.catalog.OASISCatalogManager]
+[10/17/15 10:23:13:353 CDT] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[10/17/15 10:23:13:355 CDT] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[10/17/15 10:23:13:356 CDT] 00000010 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/17/15 10:23:13:799 CDT] 00000010 com.ibm.ws.transport.iiop.internal.ORBWrapper                A CWWKI0001I: The CORBA name server is now available at corbaloc:iiop:localhost:2809/NameService.
+[10/17/15 10:23:13:940 CDT] 0000004b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 10:23:14:529 CDT] 0000004b org.jboss.weld.Version                                       I WELD-000900: SNAPSHOT
+[10/17/15 10:23:16:259 CDT] 0000004b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 10:23:16:262 CDT] 0000004b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 10:23:16:264 CDT] 0000004b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 10:23:16:276 CDT] 0000004b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application MongoRestApp started in 2.336 seconds.
+[10/17/15 10:23:16:314 CDT] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [servlet-3.1, beanValidation-1.1, ssl-1.0, jndi-1.0, jca-1.7, ejbPersistentTimer-3.2, appSecurity-2.0, j2eeManagement-1.1, jdbc-4.1, wasJmsServer-1.0, jaxrs-2.0, javaMail-1.5, cdi-1.2, webProfile-7.0, jcaInboundSecurity-1.0, jpa-2.1, jsp-2.3, ejbLite-3.2, managedBeans-1.0, jsf-2.2, ejbHome-3.2, jaxws-2.2, localConnector-1.0, jsonp-1.0, el-3.0, jaxrsClient-2.0, concurrent-1.0, appClientSupport-1.0, ejbRemote-3.2, javaee-7.0, jaxb-2.2, mdb-3.2, jacc-1.5, batch-1.0, ejb-3.2, json-1.0, jaspic-1.1, distributedMap-1.0, websocket-1.1, wasJmsSecurity-1.0, wasJmsClient-2.0].
+[10/17/15 10:23:16:314 CDT] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 6.889 seconds.
+[10/17/15 10:23:16:314 CDT] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[10/17/15 10:23:22:193 CDT] 0000006c com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[10/17/15 10:23:22:197 CDT] 0000006c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 10:23:22:209 CDT] 0000006c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 10:23:22:224 CDT] 0000006c com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 10:23:22:328 CDT] 0000006c com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/17/15 10:23:22:502 CDT] 0000006c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 10:23:22:527 CDT] 0000006c org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 10:23:22:546 CDT] 0000006c org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 10:23:23:411 CDT] 0000006f org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:9614}] to ds035004.mongolab.com:35004
+[10/17/15 10:23:23:449 CDT] 0000006f org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36778209, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 10:23:23:930 CDT] 0000006c org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:9615}] to ds035004.mongolab.com:35004
+[10/17/15 10:23:30:331 CDT] 0000001d org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 10:23:30:332 CDT] 0000001d org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 10:23:30:693 CDT] 00000073 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:3, serverValue:9616}] to ds035004.mongolab.com:35004
+[10/17/15 10:23:30:730 CDT] 00000073 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36705160, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 10:23:31:110 CDT] 0000001d org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:4, serverValue:9617}] to ds035004.mongolab.com:35004
+[10/17/15 15:08:58:072 CDT] 00000b21 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:08:58:074 CDT] 00000b21 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:08:58:085 CDT] 00000b21 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:08:58:091 CDT] 00000b21 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:08:58:991 CDT] 00000b21 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:08:58:991 CDT] 00000b21 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:08:58:992 CDT] 00000b21 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:08:58:995 CDT] 00000b21 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.905 seconds.
+[10/17/15 15:09:03:619 CDT] 00000aed com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:09:03:620 CDT] 00000aed com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:09:03:620 CDT] 00000aed com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:09:03:679 CDT] 00000aed com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:09:03:696 CDT] 00000aed org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:09:03:708 CDT] 00000aed org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:09:04:538 CDT] 00000b37 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10050}] to ds035004.mongolab.com:35004
+[10/17/15 15:09:04:575 CDT] 00000b37 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36895512, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:09:04:859 CDT] 00000aed org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10051}] to ds035004.mongolab.com:35004
+[10/17/15 15:09:18:572 CDT] 00000b2a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:09:18:573 CDT] 00000b2a com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:09:18:580 CDT] 00000b2a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:09:18:584 CDT] 00000b2a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:09:19:350 CDT] 00000b2a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:09:19:350 CDT] 00000b2a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:09:19:350 CDT] 00000b2a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:09:19:352 CDT] 00000b2a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.768 seconds.
+[10/17/15 15:09:23:392 CDT] 00000b2a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:09:23:392 CDT] 00000b2a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:09:23:393 CDT] 00000b2a com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:09:23:433 CDT] 00000b2a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:09:23:434 CDT] 00000b2a SystemOut                                                    O Data received: 
+[10/17/15 15:09:23:449 CDT] 00000b2a org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:09:23:460 CDT] 00000b2a org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:09:23:780 CDT] 00000b3c org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10052}] to ds035004.mongolab.com:35004
+[10/17/15 15:09:23:818 CDT] 00000b3c org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37201952, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:09:24:099 CDT] 00000b2a org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10053}] to ds035004.mongolab.com:35004
+[10/17/15 15:11:39:044 CDT] 00000592 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:11:39:045 CDT] 00000592 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:11:39:051 CDT] 00000592 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:11:39:056 CDT] 00000592 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:11:39:722 CDT] 00000592 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:11:39:723 CDT] 00000592 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:11:39:723 CDT] 00000592 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:11:39:724 CDT] 00000592 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.668 seconds.
+[10/17/15 15:14:05:805 CDT] 000008c2 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:14:05:806 CDT] 000008c2 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:14:05:806 CDT] 000008c2 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:14:05:843 CDT] 000008c2 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:14:05:843 CDT] 000008c2 SystemOut                                                    O UserServlet: doGet: Data received: 
+[10/17/15 15:14:05:858 CDT] 000008c2 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:14:05:869 CDT] 000008c2 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:14:06:731 CDT] 00000b7d org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10070}] to ds035004.mongolab.com:35004
+[10/17/15 15:14:06:770 CDT] 00000b7d org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37288153, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:14:07:116 CDT] 000008c2 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10071}] to ds035004.mongolab.com:35004
+[10/17/15 15:20:08:591 CDT] 000009eb SystemOut                                                    O UserServlet: doGet: Data received: 
+[10/17/15 15:20:08:592 CDT] 000009eb org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:20:08:592 CDT] 000009eb org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:20:10:192 CDT] 00000bb5 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:3, serverValue:10085}] to ds035004.mongolab.com:35004
+[10/17/15 15:20:10:230 CDT] 00000bb5 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37423706, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:20:10:517 CDT] 000009eb org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:4, serverValue:10086}] to ds035004.mongolab.com:35004
+[10/17/15 15:22:08:652 CDT] 00000b6e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:22:08:653 CDT] 00000b6e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:22:08:661 CDT] 00000b6e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:22:08:665 CDT] 00000b6e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:22:09:255 CDT] 00000b6e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:22:09:255 CDT] 00000b6e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:22:09:255 CDT] 00000b6e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:22:09:257 CDT] 00000b6e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.592 seconds.
+[10/17/15 15:22:11:715 CDT] 00000bbc com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:22:11:715 CDT] 00000bbc com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:22:11:716 CDT] 00000bbc com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:22:11:752 CDT] 00000bbc com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:22:11:752 CDT] 00000bbc SystemOut                                                    O UserServlet: doGet: Data received:  :end
+[10/17/15 15:22:11:768 CDT] 00000bbc org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:22:11:782 CDT] 00000bbc org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:22:12:572 CDT] 00000bd6 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10089}] to ds035004.mongolab.com:35004
+[10/17/15 15:22:12:610 CDT] 00000bd6 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37640227, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:22:12:899 CDT] 00000bbc org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10090}] to ds035004.mongolab.com:35004
+[10/17/15 15:25:27:139 CDT] 00000bff SystemOut                                                    O UserServlet: doGet: Data received:  :end
+[10/17/15 15:25:27:140 CDT] 00000bff org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:25:27:140 CDT] 00000bff org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:25:27:968 CDT] 00000c13 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:3, serverValue:10104}] to ds035004.mongolab.com:35004
+[10/17/15 15:25:28:005 CDT] 00000c13 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36659585, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:25:28:280 CDT] 00000bff org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:4, serverValue:10105}] to ds035004.mongolab.com:35004
+[10/17/15 15:25:52:884 CDT] 00000bfb SystemOut                                                    O UserServlet: doGet: Data received:  :end
+[10/17/15 15:25:52:884 CDT] 00000bfb org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:25:52:885 CDT] 00000bfb org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:25:53:183 CDT] 00000c1d org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:5, serverValue:10106}] to ds035004.mongolab.com:35004
+[10/17/15 15:25:53:220 CDT] 00000c1d org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37240721, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:25:53:508 CDT] 00000bfb org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:6, serverValue:10107}] to ds035004.mongolab.com:35004
+[10/17/15 15:26:39:357 CDT] 00000c1c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:26:39:358 CDT] 00000c1c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:26:39:366 CDT] 00000c1c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:26:39:370 CDT] 00000c1c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:26:39:927 CDT] 00000c1c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:26:39:927 CDT] 00000c1c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:26:39:927 CDT] 00000c1c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:26:39:935 CDT] 00000c1c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.565 seconds.
+[10/17/15 15:26:42:526 CDT] 00000b8c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:26:42:526 CDT] 00000b8c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:26:42:526 CDT] 00000b8c com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:26:42:572 CDT] 00000b8c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:26:42:573 CDT] 00000b8c SystemOut                                                    O UserServlet: doGet: Data received:  :end
+[10/17/15 15:26:42:590 CDT] 00000b8c org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:26:42:604 CDT] 00000b8c org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:26:43:303 CDT] 00000c2c org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10108}] to ds035004.mongolab.com:35004
+[10/17/15 15:26:43:341 CDT] 00000c2c org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36971732, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:26:43:622 CDT] 00000b8c org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10109}] to ds035004.mongolab.com:35004
+[10/17/15 15:28:49:224 CDT] 00000c48 SystemOut                                                    O UserServlet: doGet: Data received:  :end
+[10/17/15 15:28:49:225 CDT] 00000c48 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:28:49:226 CDT] 00000c48 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:28:50:019 CDT] 00000c58 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:3, serverValue:10116}] to ds035004.mongolab.com:35004
+[10/17/15 15:28:50:056 CDT] 00000c58 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37267054, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:28:50:513 CDT] 00000c48 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:4, serverValue:10117}] to ds035004.mongolab.com:35004
+[10/17/15 15:29:44:217 CDT] 00000c3d SystemOut                                                    O UserServlet: doGet: Data received:  :end
+[10/17/15 15:29:44:217 CDT] 00000c3d org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:29:44:218 CDT] 00000c3d org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:29:44:500 CDT] 00000c6c org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:5, serverValue:10118}] to ds035004.mongolab.com:35004
+[10/17/15 15:29:44:538 CDT] 00000c6c org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37204268, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:29:44:843 CDT] 00000c3d org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:6, serverValue:10119}] to ds035004.mongolab.com:35004
+[10/17/15 15:32:55:186 CDT] 00000c8e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:32:55:187 CDT] 00000c8e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:32:55:192 CDT] 00000c8e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:32:55:197 CDT] 00000c8e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:32:56:171 CDT] 00000c8e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:32:56:171 CDT] 00000c8e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:32:56:171 CDT] 00000c8e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:32:56:173 CDT] 00000c8e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.975 seconds.
+[10/17/15 15:32:58:585 CDT] 00000a22 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:32:58:585 CDT] 00000a22 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:32:58:586 CDT] 00000a22 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:32:58:622 CDT] 00000a22 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:32:58:623 CDT] 00000a22 SystemOut                                                    O UserServlet: doGet: Data received (GET):  :end
+[10/17/15 15:32:58:640 CDT] 00000a22 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:32:58:651 CDT] 00000a22 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:32:59:545 CDT] 00000c97 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10132}] to ds035004.mongolab.com:35004
+[10/17/15 15:32:59:584 CDT] 00000c97 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37492853, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:32:59:858 CDT] 00000a22 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10133}] to ds035004.mongolab.com:35004
+[10/17/15 15:33:28:901 CDT] 00000c7c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:33:28:906 CDT] 00000c7c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:33:28:912 CDT] 00000c7c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:33:28:921 CDT] 00000c7c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:33:29:537 CDT] 00000c7c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:33:29:537 CDT] 00000c7c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:33:29:537 CDT] 00000c7c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:33:29:539 CDT] 00000c7c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.618 seconds.
+[10/17/15 15:33:33:491 CDT] 00000c4d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:33:33:491 CDT] 00000c4d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:33:33:491 CDT] 00000c4d com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:33:33:523 CDT] 00000c4d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:33:33:524 CDT] 00000c4d SystemOut                                                    O UserServlet: doGet: Data received (null):  :end
+[10/17/15 15:33:33:540 CDT] 00000c4d org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:33:33:551 CDT] 00000c4d org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:33:33:858 CDT] 00000ca0 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10136}] to ds035004.mongolab.com:35004
+[10/17/15 15:33:33:895 CDT] 00000ca0 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36441094, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:33:34:179 CDT] 00000c4d org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10137}] to ds035004.mongolab.com:35004
+[10/17/15 15:34:08:334 CDT] 00000c85 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:34:08:335 CDT] 00000c85 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:34:08:340 CDT] 00000c85 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:34:08:344 CDT] 00000c85 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:34:08:917 CDT] 00000c85 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:34:08:917 CDT] 00000c85 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:34:08:917 CDT] 00000c85 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:34:08:919 CDT] 00000c85 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.575 seconds.
+[10/17/15 15:34:13:260 CDT] 00000c93 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:34:13:260 CDT] 00000c93 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:34:13:261 CDT] 00000c93 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:34:13:291 CDT] 00000c93 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:34:13:292 CDT] 00000c93 SystemOut                                                    O UserServlet: doGet: Data received (name=jsmith&password=1234):  :end
+[10/17/15 15:34:13:306 CDT] 00000c93 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:34:13:317 CDT] 00000c93 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:34:14:095 CDT] 00000cae org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10138}] to ds035004.mongolab.com:35004
+[10/17/15 15:34:14:133 CDT] 00000cae org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37336158, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:34:14:425 CDT] 00000c93 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10139}] to ds035004.mongolab.com:35004
+[10/17/15 15:37:14:134 CDT] 00000c99 SystemOut                                                    O UserServlet: doGet: Data received ({%22name%22:%22jsmith%22,%22password%22:%221234%22}):  :end
+[10/17/15 15:37:14:134 CDT] 00000c99 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 15:37:14:135 CDT] 00000c99 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 15:37:14:907 CDT] 00000cc8 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:3, serverValue:10143}] to ds035004.mongolab.com:35004
+[10/17/15 15:37:14:944 CDT] 00000cc8 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36675238, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 15:37:15:239 CDT] 00000c99 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:4, serverValue:10144}] to ds035004.mongolab.com:35004
+[10/17/15 15:42:01:456 CDT] 000008c2 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:42:01:457 CDT] 000008c2 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:42:01:461 CDT] 000008c2 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:42:01:465 CDT] 000008c2 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:42:02:115 CDT] 000008c2 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:42:02:115 CDT] 000008c2 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:42:02:115 CDT] 000008c2 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:42:02:116 CDT] 000008c2 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.651 seconds.
+[10/17/15 15:42:13:885 CDT] 00000ca3 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:42:13:885 CDT] 00000ca3 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:42:13:886 CDT] 00000ca3 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:42:13:918 CDT] 00000ca3 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:42:13:922 CDT] 00000ca3 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'edu.umkc.mongorestapp.UserServlet.doGet:48'
+java.lang.Error: Unresolved compilation problem: 
+	The constructor JSONObject(String) is undefined
+
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[10/17/15 15:42:14:043 CDT] 00000ca3 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.websphere.servlet.error.ServletErrorReport: java.lang.Error: Unresolved compilation problem: 
+	The constructor JSONObject&#40;String&#41; is undefined
+ com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_15.10.17_15.42.13.0.log
+[10/17/15 15:42:14:063 CDT] 00000ca3 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.websphere.servlet.error.ServletErrorReport: java.lang.Error: Unresolved compilation problem: 
+	The constructor JSONObject&#40;String&#41; is undefined
+ com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_15.10.17_15.42.14.0.log
+[10/17/15 15:45:56:502 CDT] 00000c3d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:45:56:503 CDT] 00000c3d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:45:56:506 CDT] 00000c3d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:45:56:510 CDT] 00000c3d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:45:57:129 CDT] 00000c3d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:45:57:129 CDT] 00000c3d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:45:57:129 CDT] 00000c3d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:45:57:131 CDT] 00000c3d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.621 seconds.
+[10/17/15 15:46:00:483 CDT] 00000cf3 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:46:00:483 CDT] 00000cf3 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:46:00:484 CDT] 00000cf3 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:46:00:512 CDT] 00000cf3 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:46:00:512 CDT] 00000cf3 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'edu.umkc.mongorestapp.UserServlet.doGet:48'
+java.lang.Error: Unresolved compilation problem: 
+	name cannot be resolved to a variable
+
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[10/17/15 15:46:00:548 CDT] 00000cf3 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.websphere.servlet.error.ServletErrorReport: java.lang.Error: Unresolved compilation problem: 
+	name cannot be resolved to a variable
+ com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_15.10.17_15.46.00.0.log
+[10/17/15 15:46:00:566 CDT] 00000cf3 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.websphere.servlet.error.ServletErrorReport: java.lang.Error: Unresolved compilation problem: 
+	name cannot be resolved to a variable
+ com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_15.10.17_15.46.00.1.log
+[10/17/15 15:46:25:195 CDT] 00000b8f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:46:25:195 CDT] 00000b8f com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 15:46:25:200 CDT] 00000b8f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 15:46:25:205 CDT] 00000b8f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 15:46:25:960 CDT] 00000b8f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 15:46:25:960 CDT] 00000b8f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 15:46:25:960 CDT] 00000b8f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 15:46:25:962 CDT] 00000b8f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.757 seconds.
+[10/17/15 15:46:29:051 CDT] 00000cbf com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 15:46:29:051 CDT] 00000cbf com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 15:46:29:052 CDT] 00000cbf com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 15:46:29:087 CDT] 00000cbf com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 15:46:29:104 CDT] 00000cbf com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'com.ibm.json.java.internal.Tokenizer.next:129'
+java.io.IOException: Unexpected character '%' on line 1, column 2
+	at com.ibm.json.java.internal.Tokenizer.next(Tokenizer.java:129)
+	at com.ibm.json.java.internal.Parser.parseObject(Parser.java:91)
+	at com.ibm.json.java.internal.Parser.parse(Parser.java:58)
+	at com.ibm.json.java.internal.Parser.parse(Parser.java:47)
+	at com.ibm.json.java.JSONObject.parse(JSONObject.java:79)
+	at com.ibm.json.java.JSONObject.parse(JSONObject.java:91)
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:47)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[10/17/15 15:46:29:107 CDT] 00000cbf com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.io.IOException: Unexpected character '%' on line 1, column 2 com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest() 830" at ffdc_15.10.17_15.46.29.0.log
+[10/17/15 15:46:29:142 CDT] 00000cbf com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.ws.webcontainer.webapp.WebAppErrorReport: java.io.IOException: Unexpected character &#39;&#37;&#39; on line 1, column 2 com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_15.10.17_15.46.29.1.log
+[10/17/15 15:46:29:155 CDT] 00000cbf com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.ws.webcontainer.webapp.WebAppErrorReport: java.io.IOException: Unexpected character &#39;&#37;&#39; on line 1, column 2 com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_15.10.17_15.46.29.2.log
+[10/17/15 15:46:49:652 CDT] 00000ce9 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'com.ibm.json.java.internal.Tokenizer.next:126'
+java.io.IOException: Unexpected identifier 'name' on line 1, column 6
+	at com.ibm.json.java.internal.Tokenizer.next(Tokenizer.java:126)
+	at com.ibm.json.java.internal.Parser.parseObject(Parser.java:91)
+	at com.ibm.json.java.internal.Parser.parse(Parser.java:58)
+	at com.ibm.json.java.internal.Parser.parse(Parser.java:47)
+	at com.ibm.json.java.JSONObject.parse(JSONObject.java:79)
+	at com.ibm.json.java.JSONObject.parse(JSONObject.java:91)
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:47)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[10/17/15 15:46:49:654 CDT] 00000ce9 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.io.IOException: Unexpected identifier 'name' on line 1, column 6 com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest() 830" at ffdc_15.10.17_15.46.49.0.log
+[10/17/15 15:46:49:681 CDT] 00000ce9 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.ws.webcontainer.webapp.WebAppErrorReport: java.io.IOException: Unexpected identifier &#39;name&#39; on line 1, column 6 com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_15.10.17_15.46.49.1.log
+[10/17/15 15:46:49:693 CDT] 00000ce9 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.ws.webcontainer.webapp.WebAppErrorReport: java.io.IOException: Unexpected identifier &#39;name&#39; on line 1, column 6 com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_15.10.17_15.46.49.2.log
+[10/17/15 16:15:14:787 CDT] 00000e6b com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'java.io.StringReader.<init>:50'
+java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at com.ibm.json.java.JSONObject.parse(JSONObject.java:90)
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:47)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[10/17/15 16:15:14:834 CDT] 00000e6b com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105" at ffdc_15.10.17_16.15.14.0.log
+[10/17/15 16:15:14:837 CDT] 00000e6b com.ibm.ws.webcontainer.webapp                               E SRVE0315E: An exception occurred: java.lang.Throwable: java.lang.NullPointerException
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4900)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at com.ibm.json.java.JSONObject.parse(JSONObject.java:90)
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:47)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	... 19 more
+
+[10/17/15 16:46:28:408 CDT] 00000f37 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 16:46:28:408 CDT] 00000f37 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 16:46:28:411 CDT] 00000f37 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 16:46:28:418 CDT] 00000f37 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 16:46:28:913 CDT] 00000f37 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 16:46:28:913 CDT] 00000f37 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 16:46:28:913 CDT] 00000f37 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 16:46:28:914 CDT] 00000f37 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.496 seconds.
+[10/17/15 16:46:35:044 CDT] 00000fed com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 16:46:35:044 CDT] 00000fed com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 16:46:35:044 CDT] 00000fed com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 16:46:35:071 CDT] 00000fed com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 16:46:35:071 CDT] 00000fed SystemOut                                                    O UserServlet: doGet: Data received (null):  :end
+[10/17/15 16:46:35:085 CDT] 00000fed org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 16:46:35:096 CDT] 00000fed org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 16:46:36:113 CDT] 00001005 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10248}] to ds035004.mongolab.com:35004
+[10/17/15 16:46:36:151 CDT] 00001005 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36742921, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 16:46:36:478 CDT] 00000fed org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10249}] to ds035004.mongolab.com:35004
+[10/17/15 16:54:04:215 CDT] 00000fd5 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 16:54:04:216 CDT] 00000fd5 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 16:54:04:220 CDT] 00000fd5 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 16:54:04:223 CDT] 00000fd5 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 16:54:04:686 CDT] 00000fd5 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 16:54:04:686 CDT] 00000fd5 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 16:54:04:686 CDT] 00000fd5 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 16:54:04:687 CDT] 00000fd5 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.464 seconds.
+[10/17/15 16:54:21:169 CDT] 00000f98 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 16:54:21:170 CDT] 00000f98 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 16:54:21:170 CDT] 00000f98 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 16:54:21:201 CDT] 00000f98 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:05:40:038 CDT] 00000cda com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:05:40:039 CDT] 00000cda com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:05:40:044 CDT] 00000cda com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:05:40:048 CDT] 00000cda com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:05:40:678 CDT] 00000cda com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:05:40:678 CDT] 00000cda com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:05:40:678 CDT] 00000cda com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:05:40:679 CDT] 00000cda com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.631 seconds.
+[10/17/15 17:05:59:615 CDT] 00000fb8 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:05:59:617 CDT] 00000fb8 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:05:59:621 CDT] 00000fb8 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:06:00:228 CDT] 00000fb8 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:06:00:228 CDT] 00000fb8 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:06:00:228 CDT] 00000fb8 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:06:00:231 CDT] 00000fb8 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.610 seconds.
+[10/17/15 17:06:10:930 CDT] 000010bc com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:06:10:931 CDT] 000010bc com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:06:10:931 CDT] 000010bc com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:06:10:961 CDT] 000010bc com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:06:10:961 CDT] 000010bc com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'edu.umkc.mongorestapp.UserServlet.doGet:48'
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+	at edu.umkc.mongorestapp.UserServlet.doGet(UserServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1287)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:778)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:475)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:146)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:57)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:207)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:90)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1020)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1142)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4867)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.handleRequest(WebApp31.java:523)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:297)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:997)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:262)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:955)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:341)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:470)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:404)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:284)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:255)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:174)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:83)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[10/17/15 17:06:10:984 CDT] 000010bc com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.websphere.servlet.error.ServletErrorReport: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert &quot;&#59;&quot; to complete LocalVariableDeclarationStatement
+ com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_15.10.17_17.06.10.0.log
+[10/17/15 17:06:10:995 CDT] 000010bc com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.websphere.servlet.error.ServletErrorReport: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert &quot;&#59;&quot; to complete LocalVariableDeclarationStatement
+ com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_15.10.17_17.06.10.1.log
+[10/17/15 17:06:30:347 CDT] 000010a6 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:06:30:347 CDT] 000010a6 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:06:30:351 CDT] 000010a6 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:06:30:354 CDT] 000010a6 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:06:30:834 CDT] 000010a6 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:06:30:834 CDT] 000010a6 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:06:30:834 CDT] 000010a6 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:06:30:835 CDT] 000010a6 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.481 seconds.
+[10/17/15 17:06:33:920 CDT] 00001059 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:06:33:920 CDT] 00001059 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:06:33:920 CDT] 00001059 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:06:33:957 CDT] 00001059 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:06:33:975 CDT] 00001059 SystemOut                                                    O UserServlet: doGet: Data received (user=jsmith&password=1234): {user=[Ljava.lang.String;@6d9939b1, password=[Ljava.lang.String;@27811804} :end
+[10/17/15 17:06:34:404 CDT] 00001059 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:06:34:416 CDT] 00001059 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:06:35:423 CDT] 000010cf org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10288}] to ds035004.mongolab.com:35004
+[10/17/15 17:06:35:460 CDT] 000010cf org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36658374, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:06:35:734 CDT] 00001059 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10289}] to ds035004.mongolab.com:35004
+[10/17/15 17:07:51:042 CDT] 00000fd1 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:07:51:043 CDT] 00000fd1 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:07:51:047 CDT] 00000fd1 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:07:51:051 CDT] 00000fd1 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:07:51:539 CDT] 00000fd1 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:07:51:539 CDT] 00000fd1 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:07:51:539 CDT] 00000fd1 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:07:51:540 CDT] 00000fd1 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.489 seconds.
+[10/17/15 17:07:53:420 CDT] 000010d3 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:07:53:421 CDT] 000010d3 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:07:53:421 CDT] 000010d3 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:07:53:448 CDT] 000010d3 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:07:53:448 CDT] 000010d3 SystemOut                                                    O UserServlet: doGet: Data received (null): {user=[Ljava.lang.String;@18443684, password=[Ljava.lang.String;@3b6fdded} :end
+[10/17/15 17:07:53:463 CDT] 000010d3 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:07:53:473 CDT] 000010d3 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:07:54:170 CDT] 000010dc org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10292}] to ds035004.mongolab.com:35004
+[10/17/15 17:07:54:207 CDT] 000010dc org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36556923, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:07:54:482 CDT] 000010d3 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10293}] to ds035004.mongolab.com:35004
+[10/17/15 17:08:05:533 CDT] 00000e7e SystemOut                                                    O UserServlet: doGet: Data received (null): {password=[Ljava.lang.String;@28be03cb, username=[Ljava.lang.String;@2679f8ac} :end
+[10/17/15 17:08:05:533 CDT] 00000e7e org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:08:05:534 CDT] 00000e7e org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:08:05:812 CDT] 000010e0 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:3, serverValue:10294}] to ds035004.mongolab.com:35004
+[10/17/15 17:08:05:850 CDT] 000010e0 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37586623, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:08:06:123 CDT] 00000e7e org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:4, serverValue:10295}] to ds035004.mongolab.com:35004
+[10/17/15 17:08:11:519 CDT] 00001029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:08:11:520 CDT] 00001029 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:08:11:524 CDT] 00001029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:08:11:528 CDT] 00001029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:08:12:062 CDT] 00001029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:08:12:062 CDT] 00001029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:08:12:062 CDT] 00001029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:08:12:063 CDT] 00001029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.535 seconds.
+[10/17/15 17:08:15:740 CDT] 000010da com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:08:15:740 CDT] 000010da com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:08:15:740 CDT] 000010da com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:08:15:769 CDT] 000010da com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:08:15:770 CDT] 000010da SystemOut                                                    O UserServlet: doGet: Data received ([Ljava.lang.String;@6a10afbf): {password=[Ljava.lang.String;@3f23f1a6, username=[Ljava.lang.String;@6a10afbf} :end
+[10/17/15 17:08:15:783 CDT] 000010da org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:08:15:794 CDT] 000010da org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:08:16:073 CDT] 000010e5 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10296}] to ds035004.mongolab.com:35004
+[10/17/15 17:08:16:110 CDT] 000010e5 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36641598, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:08:16:389 CDT] 000010da org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10297}] to ds035004.mongolab.com:35004
+[10/17/15 17:08:27:775 CDT] 00000f6f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:08:27:777 CDT] 00000f6f com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:08:27:781 CDT] 00000f6f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:08:27:784 CDT] 00000f6f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:08:28:526 CDT] 00000f6f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:08:28:526 CDT] 00000f6f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:08:28:526 CDT] 00000f6f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:08:28:527 CDT] 00000f6f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.743 seconds.
+[10/17/15 17:08:31:053 CDT] 000010c5 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:08:31:053 CDT] 000010c5 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:08:31:054 CDT] 000010c5 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:08:31:087 CDT] 000010c5 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:08:31:087 CDT] 000010c5 SystemOut                                                    O UserServlet: doGet: Data received ([Ljava.lang.String;@1e811b8d): {password=[Ljava.lang.String;@1722c9b0, username=[Ljava.lang.String;@1e811b8d} :end
+[10/17/15 17:08:31:101 CDT] 000010c5 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:08:31:111 CDT] 000010c5 org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:08:31:474 CDT] 000010eb org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10298}] to ds035004.mongolab.com:35004
+[10/17/15 17:08:31:511 CDT] 000010eb org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36551978, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:08:31:792 CDT] 000010c5 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10299}] to ds035004.mongolab.com:35004
+[10/17/15 17:09:13:161 CDT] 00000cda com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:09:13:163 CDT] 00000cda com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:09:13:166 CDT] 00000cda com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:09:13:169 CDT] 00000cda com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:09:13:634 CDT] 00000cda com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:09:13:634 CDT] 00000cda com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:09:13:634 CDT] 00000cda com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:09:13:635 CDT] 00000cda com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.466 seconds.
+[10/17/15 17:09:18:898 CDT] 00000e7e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:09:18:898 CDT] 00000e7e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:09:18:899 CDT] 00000e7e com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:09:18:927 CDT] 00000e7e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:09:18:927 CDT] 00000e7e SystemOut                                                    O UserServlet: doGet: Data received ([Ljava.lang.String;@5ac79709): {password=[Ljava.lang.String;@3f10bb06, username=[Ljava.lang.String;@5ac79709} :end
+[10/17/15 17:09:18:942 CDT] 00000e7e org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:09:18:952 CDT] 00000e7e org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:09:19:656 CDT] 000010f3 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10304}] to ds035004.mongolab.com:35004
+[10/17/15 17:09:19:693 CDT] 000010f3 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=36857445, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:09:19:996 CDT] 00000e7e org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10305}] to ds035004.mongolab.com:35004
+[10/17/15 17:25:51:264 CDT] 00001167 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:25:51:266 CDT] 00001167 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Destroy successful.
+[10/17/15 17:25:51:273 CDT] 00001167 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application MongoRestApp has stopped successfully.
+[10/17/15 17:25:51:276 CDT] 00001167 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application MongoRestApp.
+[10/17/15 17:25:51:829 CDT] 00001167 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MongoRestApp.
+[10/17/15 17:25:51:829 CDT] 00001167 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MongoRestApp has been bound to default_host.
+[10/17/15 17:25:51:829 CDT] 00001167 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/MongoRestApp/
+[10/17/15 17:25:51:831 CDT] 00001167 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application MongoRestApp updated in 0.555 seconds.
+[10/17/15 17:25:54:284 CDT] 0000117f com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/MongoRestApp
+[10/17/15 17:25:54:285 CDT] 0000117f com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/17/15 17:25:54:285 CDT] 0000117f com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[10/17/15 17:25:54:313 CDT] 0000117f com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [MongoRestApp] [/MongoRestApp] [edu.umkc.mongorestapp.UserServlet]: Initialization successful.
+[10/17/15 17:25:54:313 CDT] 0000117f SystemOut                                                    O UserServlet: doGet: Data received (jsmith): {password=[Ljava.lang.String;@1f967dbe, username=[Ljava.lang.String;@4346858c} :end
+[10/17/15 17:25:54:327 CDT] 0000117f org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/17/15 17:25:54:338 CDT] 0000117f org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/17/15 17:25:55:145 CDT] 00001191 org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:1, serverValue:10492}] to ds035004.mongolab.com:35004
+[10/17/15 17:25:55:183 CDT] 00001191 org.mongodb.driver.cluster                                   I Monitor thread successfully connected to server with description ServerDescription{address=ds035004.mongolab.com:35004, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 7]}, minWireVersion=0, maxWireVersion=3, electionId=561eefc64d5e2c29bd6c1641, maxDocumentSize=16777216, roundTripTimeNanos=37539737, setName='rs-ds035004', canonicalAddress=ds035004-a.mongolab.com:35004, hosts=[ds035004-a.mongolab.com:35004], passives=[], arbiters=[], primary='ds035004-a.mongolab.com:35004', tagSet=TagSet{[]}}
+[10/17/15 17:25:55:469 CDT] 0000117f org.mongodb.driver.connection                                I Opened connection [connectionId{localValue:2, serverValue:10493}] to ds035004.mongolab.com:35004

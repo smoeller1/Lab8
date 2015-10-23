@@ -1,0 +1,23 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0     12   10/20/15 15:25:32:356 CDT   10/23/15 12:44:58:635 CDT java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.20_15.25.32.0.log
+     1      5   10/20/15 15:40:57:189 CDT   10/23/15 14:17:34:593 CDT com.ibm.websphere.servlet.error.ServletErrorReport com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.20_15.40.57.0.log
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.23_14.04.45.0.log
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.23_14.17.34.0.log
+     2      2   10/20/15 15:40:57:240 CDT   10/23/15 14:04:45:308 CDT com.ibm.websphere.servlet.error.ServletErrorReport com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.20_15.40.57.1.log
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.23_14.04.45.1.log
+     3      1   10/20/15 15:41:47:100 CDT   10/20/15 15:41:47:100 CDT java.lang.IllegalStateException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.20_15.41.47.0.log
+     4      4   10/20/15 15:44:35:038 CDT   10/22/15 15:57:16:880 CDT java.util.NoSuchElementException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.20_15.44.35.0.log
+     5      1   10/23/15 13:54:55:315 CDT   10/23/15 13:54:55:315 CDT java.io.IOException com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest() 830
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.23_13.54.55.0.log
+     6      2   10/23/15 13:54:55:331 CDT   10/23/15 13:54:55:377 CDT com.ibm.ws.webcontainer.webapp.WebAppErrorReport com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.23_13.54.55.1.log
+     7      1   10/23/15 13:54:55:365 CDT   10/23/15 13:54:55:365 CDT com.ibm.ws.webcontainer.webapp.WebAppErrorReport com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+                                                                            - /Users/smoeller/Documents/School/CS5551/Git/Lab8/usr/servers/defaultServer/logs/ffdc/ffdc_15.10.23_13.54.55.2.log
+------+------+---------------------------+---------------------------+---------------------------
